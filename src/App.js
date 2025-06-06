@@ -1,4 +1,3 @@
-import './App.css';
 import './style.css';
 import TopBar from './components/TopBar';
 import FunctionBar from './components/FunctionBar';
@@ -12,15 +11,13 @@ import ContactButton from './components/ContactButton';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <header>
       <TopBar />
       </header>
       <main className="main_max_width">
       <FunctionBar />
-      <nav>
       <Navigation />
-      </nav>
       <Discount />
       <Poster />
       <TopPickSales />

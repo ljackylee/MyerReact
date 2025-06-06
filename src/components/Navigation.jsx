@@ -14,15 +14,17 @@ const NavItems = [
 
 export default function Navigation() {
   return (
-    <nav>
-      <div className="navigation">
+    <nav className="navigation">
+      <ul className="navigation_ul">
         {NavItems.map((item, index) => (
-          <button key={index} type="button">
-            <strong>{item}</strong>
-            <img src="//img/arrow.png" alt="arrow" />
-          </button>
+          <li>
+            <button key={index} type="button">
+              <strong>{item}</strong>
+              <img src="/img/arrow.png" alt="arrow" />
+            </button>
+          </li>
         ))}
-      </div>
+      </ul>
     </nav>
   );
 }

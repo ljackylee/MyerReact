@@ -10,7 +10,7 @@ export default function Discount() {
     <section className="discount">
       {DiscountItems.map((item, index) => (
         <div key={index} className="discount_item">
-          <button type="button">
+          <button className="discount_item_button" type="button">
             <strong>{item}</strong>
           </button>
         </div>

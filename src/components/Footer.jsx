@@ -39,8 +39,8 @@ export default function Footer () {
                 <p className="download_p">Download Today</p>
                 <p className="download_p">One-touch access to your<br /> Member Card and redeem <br />Rewards directly from the
                     App </p>
-                <img className="down_img" src="//img/android.jpeg" alt="Android"/>
-                <img className="down_img" src="//img/ios.jpeg" alt="ios"/>
+                <img className="down_img" src="/img/android.jpeg" alt="Android"/>
+                <img className="down_img" src="/img/ios.jpeg" alt="ios"/>
             </div>
         </section>
         
@@ -54,7 +54,7 @@ export default function Footer () {
                 <p className="footer_p">Privacy policy</p>
                 <p className="footer_p">Team member</p>
             </div>
-            <img className="footer_img" src="//img/footer.png" alt="footer"/>
+            <img className="footer_img" src="/img/footer.png" alt="footer"/>
         </div>
 
     </>
